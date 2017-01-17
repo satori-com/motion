@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders instruction component correctly 1`] = `
+<section
+  className="instruction-container"
+>
+  <ol
+    className="instruction"
+  >
+    <li
+      className="instruction-step"
+      data-step-number="1"
+    >
+      <p>
+        On your mobile device, open your unique URL from the share button below.
+      </p>
+    </li>
+    <li
+      className="instruction-step"
+      data-step-number="2"
+    >
+      <p>
+        Click "Start connection".
+      </p>
+    </li>
+    <li
+      className="instruction-step"
+      data-step-number="3"
+    >
+      <p>
+        Rotate your device and watch it move in real time! Supports multiple devices.
+      </p>
+    </li>
+  </ol>
+</section>
+`;

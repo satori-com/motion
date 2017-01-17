@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders FloatingNav component correctly when showParticipants is false 1`] = `
+<section
+  className="floatingNav"
+>
+  <div
+    className="floatingNav-actionItems"
+  >
+    <section
+      className="floatingNav-item floatingNav-share"
+    >
+      <div
+        className="shareWidget-container shareTrigger"
+        onClick={[Function]}
+      >
+        <img
+          alt="Share URL"
+          className="share-img"
+          src="Share.svg"
+        />
+        <div>
+          Share
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
+`;
+
+exports[`renders FloatingNav component correctly when showParticipants is true 1`] = `
+<section
+  className="floatingNav"
+>
+  <section
+    className="floatingNav-item floatingNav-devices"
+  >
+    <div
+      className="participantsCount"
+    >
+      5
+    </div>
+    <div>
+      Devices
+    </div>
+  </section>
+  <div
+    className="floatingNav-actionItems"
+  >
+    <section
+      className="floatingNav-item floatingNav-share"
+    >
+      <div
+        className="shareWidget-container shareTrigger"
+        onClick={[Function]}
+      >
+        <img
+          alt="Share URL"
+          className="share-img"
+          src="Share.svg"
+        />
+        <div>
+          Share
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
+`;

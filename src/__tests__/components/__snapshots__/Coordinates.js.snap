@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Coordinates component correctly 1`] = `
+<section
+  className="phone-coords"
+>
+  <div>
+    <span>
+      X: 
+    </span>
+    <span>
+      1
+    </span>
+  </div>
+  <div>
+    <span>
+      Y: 
+    </span>
+    <span>
+      2
+    </span>
+  </div>
+  <div>
+    <span>
+      Z: 
+    </span>
+    <span>
+      0
+    </span>
+  </div>
+</section>
+`;

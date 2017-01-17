@@ -1,0 +1,466 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders AppDesktop component correctly for empty participants 1`] = `
+<main
+  className="demo-container"
+>
+  <header
+    className="demo-header"
+  >
+    <h1
+      className="demo-title"
+    >
+      Welcome to Motion
+    </h1>
+  </header>
+  <section
+    className="instruction-container"
+  >
+    <ol
+      className="instruction"
+    >
+      <li
+        className="instruction-step"
+        data-step-number="1"
+      >
+        <p>
+          On your mobile device, open your unique URL from the share button below.
+        </p>
+      </li>
+      <li
+        className="instruction-step"
+        data-step-number="2"
+      >
+        <p>
+          Click "Start connection".
+        </p>
+      </li>
+      <li
+        className="instruction-step"
+        data-step-number="3"
+      >
+        <p>
+          Rotate your device and watch it move in real time! Supports multiple devices.
+        </p>
+      </li>
+    </ol>
+  </section>
+  <div
+    className="phone-demo"
+  >
+    <div
+      className="phone-container"
+    >
+      <div
+        className="phone"
+        style={
+          Object {
+            "transform": "",
+          }
+        }
+      >
+        <svg
+          className="phone-avatar"
+          viewBox="0 0 36 31"
+        >
+          <title>
+            Satori Logo
+          </title>
+          <defs>
+            <polygon
+              id="path-1"
+              points="0 30.3545182 126.785352 30.3545182 126.785352 0.0182127109 0 0.0182127109"
+            />
+          </defs>
+          <g
+            fillRule="evenodd"
+            id="Symbols"
+            stroke="none"
+            strokeWidth="1"
+          >
+            <g
+              id="TopNavigation"
+              transform="translate(-58.000000, -14.000000)"
+            >
+              <g
+                id="Satori-Logo"
+                transform="translate(58.000000, 14.000000)"
+              >
+                <polygon
+                  id="Fill-1"
+                  points="10.0869175 0.253030205 15.7789195 10.0309794 32.1506761 10.0309794 26.458674 0.253030205"
+                />
+                <polygon
+                  id="Fill-2"
+                  points="3.32435915 20.8113106 9.01636117 30.5892598 25.4134155 30.5892598 19.7214135 20.8113106"
+                />
+                <polygon
+                  id="Fill-3"
+                  points="8.79282072 0.253030205 4.40889316 7.76906187 -7.66599598e-05 15.3286017 17.5854626 15.3286017"
+                />
+                <polygon
+                  id="Fill-4"
+                  points="17.8896748 15.5127777 26.6823167 30.5883492 35.4749586 15.5127777"
+                />
+              </g>
+            </g>
+          </g>
+        </svg>
+        <div>
+          <img
+            alt="rotation arrow 1"
+            className="arrow arrow1"
+            src="Arrow.svg"
+          />
+          <img
+            alt="rotation arrow 2"
+            className="arrow arrow2"
+            src="Arrow.svg"
+          />
+        </div>
+        <svg
+          className="phone-img"
+          id="Layer_1"
+          style={
+            Object {
+              "enableBackground": "new 0 0 162.6 332.5",
+            }
+          }
+          version="1.1"
+          viewBox="0 0 162.6 332.5"
+          x="0px"
+          y="0px"
+        >
+          <path
+            d="M152.5,39.9v254.5H9.7V39.9H152.5 M154,38.5H8.3v257.4H154V38.5z M143.5,332.5H19.3 C8.8,332.6,0.1,324.1,0,313.6V19C0.1,8.4,8.7-0.1,19.3,0h124.2c10.5,0,19,8.5,19,19v294.6C162.5,324,154,332.5,143.5,332.5 L143.5,332.5z M19.3,2.5C10.1,2.4,2.6,9.8,2.5,19v294.6c0.1,9.2,7.6,16.5,16.8,16.4h124.2c9.1,0,16.5-7.3,16.6-16.4V19 c0-9.1-7.4-16.5-16.6-16.5H19.3z"
+          />
+        </svg>
+      </div>
+      <section
+        className="phone-coords"
+      >
+        <div>
+          <span>
+            X: 
+          </span>
+          <span>
+            0
+          </span>
+        </div>
+        <div>
+          <span>
+            Y: 
+          </span>
+          <span>
+            0
+          </span>
+        </div>
+        <div>
+          <span>
+            Z: 
+          </span>
+          <span>
+            0
+          </span>
+        </div>
+      </section>
+    </div>
+  </div>
+  <section
+    className="floatingNav"
+  >
+    <section
+      className="floatingNav-item floatingNav-devices"
+    >
+      <div
+        className="participantsCount"
+      >
+        0
+      </div>
+      <div>
+        Devices
+      </div>
+    </section>
+    <div
+      className="floatingNav-actionItems"
+    >
+      <section
+        className="floatingNav-item floatingNav-console"
+        onClick={[Function]}
+      >
+        <img
+          alt="Console"
+          className="share-img"
+          src="ic_code.svg"
+        />
+        <div>
+          Inspect
+        </div>
+      </section>
+      <section
+        className="floatingNav-item floatingNav-share"
+      >
+        <div
+          className="shareWidget-container shareTrigger"
+          onClick={[Function]}
+        >
+          <img
+            alt="Share URL"
+            className="share-img"
+            src="Share.svg"
+          />
+          <div>
+            Share
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+</main>
+`;
+
+exports[`renders AppDesktop component correctly when there are participants 1`] = `
+<main
+  className="demo-container"
+>
+  <header
+    className="demo-header"
+  >
+    <h1
+      className="demo-title"
+    >
+      Welcome to Motion
+    </h1>
+  </header>
+  <section
+    className="instruction-container"
+  >
+    <ol
+      className="instruction"
+    >
+      <li
+        className="instruction-step"
+        data-step-number="1"
+      >
+        <p>
+          On your mobile device, open your unique URL from the share button below.
+        </p>
+      </li>
+      <li
+        className="instruction-step"
+        data-step-number="2"
+      >
+        <p>
+          Click "Start connection".
+        </p>
+      </li>
+      <li
+        className="instruction-step"
+        data-step-number="3"
+      >
+        <p>
+          Rotate your device and watch it move in real time! Supports multiple devices.
+        </p>
+      </li>
+    </ol>
+  </section>
+  <div
+    className="phone-demo"
+  >
+    <div
+      className="phone-container"
+    >
+      <div
+        className="phone"
+        style={
+          Object {
+            "transform": "rotateZ(5deg) rotateX(2deg) rotateY(0deg)",
+          }
+        }
+      >
+        <div
+          className="phone-avatar"
+          onClick={[Function]}
+        >
+          <svg
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<title>5</title><g fill=\\"none\\" fill-rule=\\"evenodd\\"><path d=\\"M50 99.01c-27.614 0-50-22.163-50-49.505C0 22.164 22.386 0 50 0s50 22.164 50 49.505c0 27.342-22.386 49.505-50 49.505z\\" id=\\"bg\\" fill=\\"#88c440\\"></path><path d=\\"M58.836 35.873a3.828 3.828 0 0 1-3.826-3.83 3.828 3.828 0 0 1 3.826-3.83 3.816 3.816 0 0 1 3.57 2.483 2.489 2.489 0 0 0-2.183-1.305c-1.38 0-2.5 1.12-2.5 2.504a2.501 2.501 0 0 0 2.5 2.502 2.494 2.494 0 0 0 2.38-1.776c-.28 1.839-1.851 3.252-3.767 3.252m12.808-7.66c1.47 0 2.73.837 3.37 2.054a2.483 2.483 0 0 0-1.884-.876c-1.38 0-2.5 1.12-2.5 2.504a2.501 2.501 0 0 0 2.5 2.502c.936 0 1.742-.522 2.17-1.284-.464 1.59-1.916 2.76-3.656 2.76a3.827 3.827 0 0 1-3.824-3.83 3.828 3.828 0 0 1 3.824-3.83m-4.826 14.424c5.617 6.389 14.918 3.992 20.182 1.87-.87-8.947-9.036-17.124-9.036-17.124-18.653-5.375-30.786-5.09-38.676-2.683-.033-.155-.056-.25-.056-.25s8.017-7.78-1.907-7.438c0 0-5.245.473-.798 7.583.204.322.39.607.567.874-2.537 1-4.541 2.233-6.145 3.53.09-3.644-.581-10.876-8.252-4.232 0 0-4.715 4.566 4.578 8.145-1.999 2.875-2.412 5.265-2.412 5.265.114.885.195 1.738.294 2.608-2.519-4.1-7.564-9.863-11.306 1.644 0 0-2.277 8.598 11.543 5.64.154-.032.286-.065.434-.097.348 4.963.444 9.628.327 14.023-2.151-2.333-14.572-14.996-14.926 3.41 0 0 .385 10.356 14.602 2.786-.19 2.442 1.584 4.738 2.546 6.806 4.422 9.514 9.726 4.194 12.988-.087 4.91-6.447 12.835-8.863 12.835-8.863 24.25-2.914 31.887-10.62 32.783-18.391-20.165 4.694-20.165-5.02-20.165-5.02\\" fill=\\"#FFF\\"></path></g>",
+              }
+            }
+            viewBox="0 0 100 100"
+            width={undefined}
+          />
+        </div>
+        <svg
+          className="phone-img"
+          id="Layer_1"
+          style={
+            Object {
+              "enableBackground": "new 0 0 162.6 332.5",
+            }
+          }
+          version="1.1"
+          viewBox="0 0 162.6 332.5"
+          x="0px"
+          y="0px"
+        >
+          <path
+            d="M152.5,39.9v254.5H9.7V39.9H152.5 M154,38.5H8.3v257.4H154V38.5z M143.5,332.5H19.3 C8.8,332.6,0.1,324.1,0,313.6V19C0.1,8.4,8.7-0.1,19.3,0h124.2c10.5,0,19,8.5,19,19v294.6C162.5,324,154,332.5,143.5,332.5 L143.5,332.5z M19.3,2.5C10.1,2.4,2.6,9.8,2.5,19v294.6c0.1,9.2,7.6,16.5,16.8,16.4h124.2c9.1,0,16.5-7.3,16.6-16.4V19 c0-9.1-7.4-16.5-16.6-16.5H19.3z"
+          />
+        </svg>
+      </div>
+      <section
+        className="phone-coords"
+      >
+        <div>
+          <span>
+            X: 
+          </span>
+          <span>
+            2
+          </span>
+        </div>
+        <div>
+          <span>
+            Y: 
+          </span>
+          <span>
+            0
+          </span>
+        </div>
+        <div>
+          <span>
+            Z: 
+          </span>
+          <span>
+            -5
+          </span>
+        </div>
+      </section>
+    </div>
+    <div
+      className="phone-container"
+    >
+      <div
+        className="phone"
+        style={
+          Object {
+            "transform": "rotateZ(15deg) rotateX(20deg) rotateY(-30deg)",
+          }
+        }
+      >
+        <div
+          className="phone-avatar"
+          onClick={[Function]}
+        >
+          <svg
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<title>2</title><defs><path id=\\"path-1\\" d=\\"M0 76.7V0h57.96v76.7z\\"></path></defs><g id=\\"Page-1\\" fill=\\"none\\" fill-rule=\\"evenodd\\"><g id=\\"2\\"><g id=\\"Avatar_2\\"><g id=\\"Group\\"><path id=\\"bg\\" fill=\\"#88c440\\" d=\\"M50 99C22.4 99 0 76.86 0 49.5 0 22.16 22.4 0 50 0s50 22.16 50 49.5C100 76.85 77.6 99 50 99z\\"></path><g id=\\"Avatar2\\" transform=\\"translate(21 12)\\"><mask id=\\"mask-2\\" fill=\\"#fff\\"><use xlink:href=\\"#path-1\\"></use></mask><path id=\\"Fill-1\\" fill=\\"#FFF\\" d=\\"M40.6 61c-.05 0-1.68.38-3.93.76s-5.1.78-7.7.78c-2.6 0-5.43-.4-7.68-.78S17.4 61 17.34 61c-1.56-.37-2.54-1.96-2.18-3.54.34-1.6 1.9-2.58 3.52-2.2l.2.03c.15 0 .4.1.72.12.64.14 1.55.32 2.6.5 2.06.35 4.7.7 6.72.7 1.95 0 4.5-.33 6.54-.67 2.04-.35 3.6-.7 3.77-.74 1.55-.35 3.1.64 3.46 2.23.37 1.58-.6 3.17-2.16 3.53M19.64 35.9c2.12 0 3.83 1.74 3.83 3.9 0 2.15-1.7 3.9-3.83 3.9-2.1 0-3.83-1.75-3.83-3.9 0-2.16 1.75-3.9 3.86-3.9m18.66 0c2.13 0 3.85 1.74 3.85 3.9 0 2.15-1.72 3.9-3.83 3.9-2.1 0-3.8-1.75-3.8-3.9 0-2.16 1.7-3.9 3.82-3.9M54.8 20.95c-1.97-2-4.7-3.25-7.7-3.25H31.88V9.2c1.26-.93 2.08-2.43 2.08-4.13 0-2.8-2.23-5.07-4.98-5.07C26.23 0 24 2.27 24 5.07c0 1.7.82 3.2 2.08 4.12v8.5h-15.2c-3 0-5.73 1.22-7.7 3.22-1.95 2-3.18 4.77-3.18 7.8V65.6c0 3.05 1.23 5.83 3.2 7.8 1.95 2 4.68 3.27 7.67 3.27H47.1c3 0 5.7-1.26 7.67-3.26 1.97-2 3.2-4.75 3.2-7.8V28.77c0-3.04-1.23-5.82-3.2-7.8\\" mask=\\"url(#mask-2)\\"></path></g></g></g></g></g>",
+              }
+            }
+            viewBox="0 0 100 100"
+            width={undefined}
+          />
+        </div>
+        <svg
+          className="phone-img"
+          id="Layer_1"
+          style={
+            Object {
+              "enableBackground": "new 0 0 162.6 332.5",
+            }
+          }
+          version="1.1"
+          viewBox="0 0 162.6 332.5"
+          x="0px"
+          y="0px"
+        >
+          <path
+            d="M152.5,39.9v254.5H9.7V39.9H152.5 M154,38.5H8.3v257.4H154V38.5z M143.5,332.5H19.3 C8.8,332.6,0.1,324.1,0,313.6V19C0.1,8.4,8.7-0.1,19.3,0h124.2c10.5,0,19,8.5,19,19v294.6C162.5,324,154,332.5,143.5,332.5 L143.5,332.5z M19.3,2.5C10.1,2.4,2.6,9.8,2.5,19v294.6c0.1,9.2,7.6,16.5,16.8,16.4h124.2c9.1,0,16.5-7.3,16.6-16.4V19 c0-9.1-7.4-16.5-16.6-16.5H19.3z"
+          />
+        </svg>
+      </div>
+      <section
+        className="phone-coords"
+      >
+        <div>
+          <span>
+            X: 
+          </span>
+          <span>
+            20
+          </span>
+        </div>
+        <div>
+          <span>
+            Y: 
+          </span>
+          <span>
+            30
+          </span>
+        </div>
+        <div>
+          <span>
+            Z: 
+          </span>
+          <span>
+            -15
+          </span>
+        </div>
+      </section>
+    </div>
+  </div>
+  <section
+    className="floatingNav"
+  >
+    <section
+      className="floatingNav-item floatingNav-devices"
+    >
+      <div
+        className="participantsCount"
+      >
+        2
+      </div>
+      <div>
+        Devices
+      </div>
+    </section>
+    <div
+      className="floatingNav-actionItems"
+    >
+      <section
+        className="floatingNav-item floatingNav-console"
+        onClick={[Function]}
+      >
+        <img
+          alt="Console"
+          className="share-img"
+          src="ic_code.svg"
+        />
+        <div>
+          Inspect
+        </div>
+      </section>
+      <section
+        className="floatingNav-item floatingNav-share"
+      >
+        <div
+          className="shareWidget-container shareTrigger"
+          onClick={[Function]}
+        >
+          <img
+            alt="Share URL"
+            className="share-img"
+            src="Share.svg"
+          />
+          <div>
+            Share
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+</main>
+`;

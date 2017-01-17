@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders PromoVideo component correctly with roomId 1`] = `
+<main
+  className="promoVideo-container"
+>
+  <div
+    className="promoVideo-overlay"
+  />
+  <iframe
+    allowFullScreen={true}
+    className="promoVideo"
+    frameBorder="0"
+    src="https://player.vimeo.com/video/222914713?title=0&byline=0&portrait=0"
+    title="Satori Motion Video"
+  />
+  <a
+    className="link--jumpIn"
+    href="/room/abc?currentState=main"
+    onClick={[Function]}
+  >
+    <button
+      className="btn btn--primary"
+    >
+      Jump in
+    </button>
+  </a>
+</main>
+`;
+
+exports[`renders PromoVideo component correctly without roomId 1`] = `
+<main
+  className="promoVideo-container"
+>
+  <div
+    className="promoVideo-overlay"
+  />
+  <iframe
+    allowFullScreen={true}
+    className="promoVideo"
+    frameBorder="0"
+    src="https://player.vimeo.com/video/222914713?title=0&byline=0&portrait=0"
+    title="Satori Motion Video"
+  />
+  <a
+    className="link--jumpIn"
+    href="/?currentState=main"
+    onClick={[Function]}
+  >
+    <button
+      className="btn btn--primary"
+    >
+      Jump in
+    </button>
+  </a>
+</main>
+`;
