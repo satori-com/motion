@@ -36,6 +36,7 @@ class FloatingNav extends PureComponent {
             <ShareContainer
               className="shareTrigger"
               placement="left"
+              showQR
             >
               <img
                 className="share-img"
