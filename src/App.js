@@ -7,7 +7,7 @@ import { saveUser, getUser, generateUser } from './lib/user';
 import { isMobile, isValidMessage, removeInactiveParticipants } from './lib/utils';
 import AppMobile from './components/AppMobile';
 import AppDesktop from './components/AppDesktop';
-import SatoriLogo from './resources/SatoriLogoWithText.svg';
+import { AppShell, AppHeader } from '@satori-sdk/component-library';
 import './App.css';
 
 class App extends Component {
@@ -73,15 +73,15 @@ class App extends Component {
     const currentState = new URLSearchParams(this.props.location.search).get('currentState');
 
     return (
-      <div className="App">
-        <header className="header">
-          <img src={SatoriLogo} alt="Satori" />
-        </header>
-        {isMobile
-          ? <AppMobile participants={participants} roomId={roomId} currentState={currentState} user={user} />
-          : <AppDesktop latestMessage={latestMessage} participants={participants} />
-        }
-      </div>
+      <AppShell>
+        <AppHeader projectUrl="https://github.com/satori-com/motion"/>
+        <main>
+          {isMobile
+            ? <AppMobile participants={participants} roomId={roomId} currentState={currentState} user={user} />
+            : <AppDesktop latestMessage={latestMessage} participants={participants} />
+          }
+        </main>
+      </AppShell>
     );
   }
 }
