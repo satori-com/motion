@@ -23,7 +23,7 @@
   "dependencies": {
     "@satori-sdk/component-library": "^0.1.3",
     "js-cookie": "^2.1.4",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.19",
     "prop-types": "^15.5.8",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
